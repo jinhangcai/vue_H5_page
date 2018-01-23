@@ -1,0 +1,67 @@
+@import './reset';
+@import './iconfont';
+@import './layout';
+.clearfix{
+  _height: 1%;
+  &:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+}
+
+.load-row{
+  text-align: center;
+  font-size: .2rem;
+  line-height: .4rem;
+  color: #666;
+}
+
+.loading-page{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-size: .24rem;
+  text-align: center;
+  color: #a7a7a7
+}
+.qui_bank_abc {
+  background-image: url("../image/bank-icon/bank-ico-abc.png");
+}
+.qui_bank_icbc {
+  background-image: url("../image/bank-icon/bank-ico-icbc.png");
+}
+.qui_bank_cmb {
+  background-image: url("../image/bank-icon/bank-ico-cmb.png");
+}
+.qui_bank_boc {
+  background-image: url("../image/bank-icon/bank-ico-boc.png");
+}
+.qui_bank_ccb {
+  background-image: url("../image/bank-icon/bank-ico-ccb.png");
+}
+.qui_bank_ceb {
+  background-image: url("../image/bank-icon/bank-ico-ceb.png");
+}
+.qui_bank_hxb {
+  background-image: url("../image/bank-icon/bank-ico-hxb.png");
+}
+.qui_bank_ecitic {
+  background-image: url("../image/bank-icon/bank-ico-ecitic.png");
+}
+.qui_bank_cib {
+  background-image: url("../image/bank-icon/bank-ico-cib.png");
+}
+.qui_bank_pingan {
+  background-image: url("../image/bank-icon/bank-ico-pingan.png");
+}
+.qui_bank_spdb {
+  background-image: url("../image/bank-icon/bank-ico-spdb.png");
+}
+.qui_bank_psbc {
+  background-image: url("../image/bank-icon/bank-ico-psbc.png");
+}
+.qui_bank_cgbc {
+  background-image: url("../image/bank-icon/bank-ico-cgbc.png");
+}
+.qui_bank_cmbc {
+  background-image: url("../image/bank-icon/bank-ico-cmbc.png");
+}

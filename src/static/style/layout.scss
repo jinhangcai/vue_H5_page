@@ -1,0 +1,31 @@
+html{
+  font-size: 100px;
+}
+body{
+  font-size: 0.14rem;
+  line-height: 1.2;
+}
+
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+#app{
+  position: relative;
+  min-height: 100%;
+}
+
+.viewport{
+  max-width: 640px;
+  min-height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.fixed-bar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

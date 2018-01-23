@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
+    <title><%= htmlWebpackPlugin.options.title%></title>
+    <script>
+        (function(){
+            function o(){document.documentElement.style.fontSize=(document.documentElement.clientWidth>640?640:document.documentElement.clientWidth)/6.4+"px"}
+            var e=null;
+            window.addEventListener("resize",function(){clearTimeout(e),e=setTimeout(o,300)},!1),o()
+        })(window);
+    </script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="loading-page">
+            加载中...
+        </div>
+    </div>
+</body>
+</html>
